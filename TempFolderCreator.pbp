@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://www.purebasic.com/namespace" version="1.0" creator="PureBasic 5.62 (Windows - x64)">
+  <section name="config">
+    <options closefiles="1" openmode="0" name="Temporary Folder Creator"/>
+  </section>
+  <section name="data">
+    <explorer view="C:\ProgramData\PureBasic\Examples\" pattern="0"/>
+    <log show="1"/>
+    <lastopen date="2019-06-19 13:58" user="Herwin" host="THEBONEZONE"/>
+  </section>
+  <section name="files">
+    <file name="TempFolderCreator.pb">
+      <config load="0" scan="1" panel="1" warn="1" lastopen="1" panelstate="+"/>
+      <fingerprint md5="8b003585e4fade6f0dbac9bb6d13ae5d"/>
+    </file>
+  </section>
+  <section name="targets">
+    <target name="x64" enabled="1" default="1">
+      <inputfile value="TempFolderCreator.pb"/>
+      <outputfile value="Build\TempFolderCreator-x64.exe"/>
+      <compiler version="PureBasic 5.62 (Windows - x64)"/>
+      <executable value="Build\TempFolderCreator-x64.exe"/>
+      <options admin="1" debug="1"/>
+      <compilecount enable="1" value="1"/>
+      <buildcount enable="1" value="1"/>
+    </target>
+    <target name="x86" enabled="1" default="0">
+      <inputfile value="TempFolderCreator.pb"/>
+      <outputfile value="Build\TempFolderCreator-x86.exe"/>
+      <compiler version="PureBasic 5.62 (Windows - x86)"/>
+      <executable value="Build\TempFolderCreator-x86.exe"/>
+      <options admin="1" debug="1"/>
+      <compilecount enable="1" value="1"/>
+      <buildcount enable="1" value="1"/>
+    </target>
+  </section>
+</project>
